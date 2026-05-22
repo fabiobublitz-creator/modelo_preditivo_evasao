@@ -14,9 +14,13 @@ Para que as coordenações de curso e pró-reitorias possam agir preventivamente
 
 *(Insira aqui os prints do seu dashboard substituindo os caminhos abaixo)*
 * **Visão Geral do Risco Institucional:**
-  ![Dashboard - Visão Geral](dados/print_dashboard_geral.png)
+  ![Dashboard - Risco de Evasão](imagens/risco_evasao.png)
+
 * **Análise por Campus e Alunos em Situação de Alerta:**
-  ![Dashboard - Alunos em Alerta](dados/print_dashboard_alerta.png)
+  ![Dashboard - Estatisticas](imagens/estatistica_descritiva.png)
+
+* **Análise por Campus e Alunos em Situação de Alerta:**
+  ![Dashboard - Informações do modelo](imagens/informacoes_modelo.png)
 
 ---
 
