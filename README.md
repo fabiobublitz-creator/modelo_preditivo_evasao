@@ -72,3 +72,8 @@ modelo_evasao <- train(situacao_atual ~ sexo + coeficiente_de_rendimento_absolut
                        tipo_de_cota + turno,
                        data = train_pp, method = "rf", 
                        trControl = ctrl, metric = "ROC")
+                       
+---
+
+## 🤖 Uso de Inteligência Artificial Co-piloto
+A lógica estrutural do script em R e as diretrizes de boas práticas de Machine Learning (como a separação estrita de dados de treino/teste e tratamentos de *data leakage*) foram desenvolvidas em colaboração com o **Google Gemini**. A ferramenta foi utilizada como um co-piloto técnico para validação de código, refinamento da engenharia de recursos (*feature engineering*) e suporte na estruturação e documentação do pipeline Git/GitHub deste repositório.
