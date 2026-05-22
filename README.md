@@ -17,7 +17,7 @@ Para que as coordenações de curso e pró-reitorias possam agir preventivamente
   ![Dashboard - Risco de Evasão](Imagens/risco_evasao.png)
 
 * **Análise por Campus e Alunos em Situação de Alerta:**
-  ![Dashboard - Estatisticas](Imagens/estatistica_descritiva.png)
+  ![Dashboard - Estatisticas](Imagens/estatistica_preditiva.png)
 
 * **Análise por Campus e Alunos em Situação de Alerta:**
   ![Dashboard - Informações do modelo](Imagens/informacoes_modelo.png)
