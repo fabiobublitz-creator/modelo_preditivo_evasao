@@ -12,14 +12,17 @@ Para que as coordenações de curso e pró-reitorias possam agir preventivamente
 
 > 📌 *Nota de Confidencialidade: Em conformidade com a LGPD e regras institucionais, os microdados reais estão protegidos. Abaixo estão representadas as visões estruturais do painel gerado.*
 
-*(Insira aqui os prints do seu dashboard substituindo os caminhos abaixo)*
-* **Visão Geral do Risco Institucional:**
+
+* **Visão Geral do resultado da análise preditiva que gerou a probabilidade de evasão para os estudantes:**
+
   ![Dashboard - Risco de Evasão](Imagens/risco_evasao.png)
 
-* **Análise por Campus e Alunos em Situação de Alerta:**
+* **Análise por Campus e Alunos em Situação de Alerta para evasão:**
+
   ![Dashboard - Estatisticas](Imagens/estatistica_preditiva.png)
 
-* **Análise por Campus e Alunos em Situação de Alerta:**
+* **Informações sobre o modelo preditivo:**
+
   ![Dashboard - Informações do modelo](Imagens/informacoes_modelo.png)
 
 ---
@@ -56,7 +59,7 @@ Além das variáveis base da instituição, foram criadas duas métricas derivad
 
 ---
 
-## 🤖 Resultados alcançados
+## 📊 Resultados alcançados
 
 A aplicação do modelo preditivo aos dados dos estudantes regulares (ativos) permitiu a identificação daqueles
 com alto potencial para evasão, a partir do indicador gerado e chamado de Probabilidade de Evasão. Estudantes 
