@@ -20,6 +20,7 @@ Para que as coordenações de curso e pró-reitorias possam agir preventivamente
 * **Análise por Campus e Alunos em Situação de Alerta para evasão:**
 
   ![Dashboard - Estatisticas](Imagens/estatistica_preditiva.png)
+  
 
 * **Informações sobre o modelo preditivo:**
 
