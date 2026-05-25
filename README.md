@@ -17,7 +17,6 @@ Para que as coordenações de curso e pró-reitorias possam agir preventivamente
 
 > 📌 *Nota de Confidencialidade: Em conformidade com a LGPD e regras institucionais, os microdados reais estão protegidos. Abaixo estão representadas as visões estruturais do painel gerado.*
 
-*(Insira aqui os prints do seu dashboard substituindo os caminhos abaixo)*
 * **Visão Geral do resultado da análise preditiva que gerou a probabilidade de evasão para os estudantes:**
   ![Dashboard - Risco de Evasão](Imagens/risco_evasao.png)
 
