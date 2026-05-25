@@ -56,6 +56,26 @@ Além das variáveis base da instituição, foram criadas duas métricas derivad
 
 ---
 
+## 🤖 Resultados alcançados
+
+A aplicação do modelo preditivo aos dados dos estudantes regulares (ativos) permitiu a identificação daqueles
+com alto potencial para evasão, a partir do indicador gerado e chamado de Probabilidade de Evasão. Estudantes 
+com Probabilidade de Evasão maior do que 70% foram classificados com o status de ALERTA para evasão.
+
+Esta identificação permitiu que ações preventivas fossem planejadas, estruturadas e executadas antes da evasão 
+se consolidar. 
+
+De acordo com a análise de relevância gerada pelo comando varImp(modelo_evasao), os fatores com maior peso na
+tomada de decisão do modelo foram:
+
+1 - Coeficiente de Rendimento Absoluto (CR) (Normalizado via Z-Score);
+
+2 - Taxa de Reprovação;
+
+3 - Tempo no Curso.
+
+---
+
 ## 🤖 O Modelo Preditivo
 
 O algoritmo selecionado foi o **Random Forest (rf)**, treinado via pacote `caret` buscando a otimização da métrica **AUC-ROC**.
@@ -82,3 +102,4 @@ A lógica estrutural do script em R e as diretrizes de boas práticas de Machine
 em colaboração com o **Google Gemini**. A ferramenta foi utilizada como um co-piloto técnico para validação 
 de código, refinamento da engenharia de recursos (*feature engineering*) e suporte na estruturação e 
 documentação do pipeline Git/GitHub deste repositório.
+
