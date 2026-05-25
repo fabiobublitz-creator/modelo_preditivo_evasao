@@ -22,12 +22,6 @@ Para que as coordenações de curso e pró-reitorias possam agir preventivamente
 
   ![Dashboard - Risco de Evasão](Imagens/risco_evasao.png)
 
-* **Análise por Campus e Alunos em Situação de Alerta para evasão:**
-
-
-* **Visão Geral do resultado da análise preditiva que gerou a probabilidade de evasão para os estudantes:**
-
-  ![Dashboard - Risco de Evasão](Imagens/risco_evasao.png)
 
 * **Análise por Campus e Alunos em Situação de Alerta para evasão:**
 
