@@ -1,5 +1,10 @@
 # 🏫 Predição de Evasão de Estudantes - UTFPR (2023-2025)
 
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/rstudio/rstudio-original.svg" alt="rstudio" title="Rstudio" width="40" height="40"/> &nbsp; &nbsp;</a>
+<img src="https://cdn.worldvectorlogo.com/logos/google-data-studio.svg" alt="Data Studio Logo" width="40" height="40"/> &nbsp; &nbsp;</a>
+<img src="https://cdn-icons-png.flaticon.com/512/732/732220.png" alt="Excel" title="Excel" width="40" height="40"/> &nbsp; &nbsp; </a>
+<img src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/googlegemini.svg" alt="Google Gemini" width="40" height="40" style="background-color: transparent; border-radius: 50%; box-shadow: 0 0 5px 2px rgba(255,255,255,0.7);"/> &nbsp; &nbsp; </a>
+
 Este projeto apresenta o desenvolvimento de um modelo preditivo de Machine Learning para identificar o risco de evasão acadêmica nos *campi* da **Universidade Tecnológica Federal do Paraná (UTFPR)**. O modelo analisa dados históricos de estudantes desligados e graduados no período de 2023 a 2025 para prever o comportamento de alunos atualmente regulares.
 
 A solução final integra um pipeline robusto em **R** com a visualização estratégica de indicadores em um painel interativo desenvolvido no **Looker Studio**.
