@@ -1,9 +1,9 @@
 # 🏫 Predição de Evasão de Estudantes - UTFPR (2023-2025)
 
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/rstudio/rstudio-original.svg" alt="rstudio" title="Rstudio" width="40" height="40"/> &nbsp; &nbsp;</a>
-<img src="https://cdn.worldvectorlogo.com/logos/google-data-studio.svg" alt="Data Studio Logo" width="40" height="40"/> &nbsp; &nbsp;</a>
-<img src="https://cdn-icons-png.flaticon.com/512/732/732220.png" alt="Excel" title="Excel" width="40" height="40"/> &nbsp; &nbsp; </a>
-<img src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/googlegemini.svg" alt="Google Gemini" width="40" height="40" style="background-color: transparent; border-radius: 50%; box-shadow: 0 0 5px 2px rgba(255,255,255,0.7);"/> &nbsp; &nbsp; </a>
+![R](https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white) &nbsp; &nbsp;</a>
+![Looker Studio](https://img.shields.io/badge/Looker%20Studio-4285F4?style=for-the-badge&logo=looker&logoColor=white) &nbsp; &nbsp;</a>
+![Excel](https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white) &nbsp; &nbsp;</a>
+![Gemini](https://img.shields.io/badge/Gemini-8E75FF?style=for-the-badge&logo=googlegemini&logoColor=white) &nbsp; &nbsp;</a>
 
 Este projeto apresenta o desenvolvimento de um modelo preditivo de Machine Learning para identificar o risco de evasão acadêmica nos *campi* da **Universidade Tecnológica Federal do Paraná (UTFPR)**. O modelo analisa dados históricos de estudantes desligados e graduados no período de 2023 a 2025 para prever o comportamento de alunos atualmente regulares.
 
@@ -17,7 +17,6 @@ Para que as coordenações de curso e pró-reitorias possam agir preventivamente
 
 > 📌 *Nota de Confidencialidade: Em conformidade com a LGPD e regras institucionais, os microdados reais estão protegidos. Abaixo estão representadas as visões estruturais do painel gerado.*
 
-<<<<<<< HEAD
 
 * **Visão Geral do resultado da análise preditiva que gerou a probabilidade de evasão para os estudantes:**
 
@@ -25,21 +24,18 @@ Para que as coordenações de curso e pró-reitorias possam agir preventivamente
 
 * **Análise por Campus e Alunos em Situação de Alerta para evasão:**
 
-=======
+
 * **Visão Geral do resultado da análise preditiva que gerou a probabilidade de evasão para os estudantes:**
+
   ![Dashboard - Risco de Evasão](Imagens/risco_evasao.png)
 
 * **Análise por Campus e Alunos em Situação de Alerta para evasão:**
->>>>>>> 10a22a8a3dd455a5765037bb4ad92109e4bc1061
+
   ![Dashboard - Estatisticas](Imagens/estatistica_preditiva.png)
   
 
 * **Informações sobre o modelo preditivo:**
 
-<<<<<<< HEAD
-=======
-* **Análise por Campus e Alunos em Situação de Alerta para evasão:**
->>>>>>> 10a22a8a3dd455a5765037bb4ad92109e4bc1061
   ![Dashboard - Informações do modelo](Imagens/informacoes_modelo.png)
 
 ---
