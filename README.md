@@ -64,6 +64,15 @@ Além das variáveis base da instituição, foram criadas duas métricas derivad
 * **Tratamento de Categorias Novas:** Implementação de um nível `"outros"` padrão utilizando `fct_other` para evitar que o modelo quebre ao encontrar uma forma de ingresso ou cota inédita nos dados dos alunos matriculados.
 * **Desbalanceamento de Classes:** Aplicação de **Up-sampling** (`sampling = "up"`) na validação cruzada de 5 folds para mitigar a disparidade numérica entre o total de formados e desistentes.
 
+
+## 🤖 Uso de Inteligência Artificial Generativa
+
+A lógica estrutural do script em R e as diretrizes de boas práticas de Machine Learning 
+(como a separação estrita de dados de treino/teste e tratamentos de *data leakage*) foram desenvolvidas 
+em colaboração com o **Google Gemini**. A ferramenta foi utilizada como um co-piloto técnico para validação 
+de código, refinamento da engenharia de recursos (*feature engineering*) e suporte na estruturação e 
+documentação do pipeline Git/GitHub deste repositório.
+
 ---
 
 ## 📊 Resultados alcançados
@@ -105,14 +114,4 @@ modelo_evasao <- train(situacao_atual ~ sexo + coeficiente_de_rendimento_absolut
                        
 ---
 
-## 🤖 Uso de Inteligência Artificial Generativa
 
-A lógica estrutural do script em R e as diretrizes de boas práticas de Machine Learning 
-(como a separação estrita de dados de treino/teste e tratamentos de *data leakage*) foram desenvolvidas 
-em colaboração com o **Google Gemini**. A ferramenta foi utilizada como um co-piloto técnico para validação 
-de código, refinamento da engenharia de recursos (*feature engineering*) e suporte na estruturação e 
-documentação do pipeline Git/GitHub deste repositório.
-<<<<<<< HEAD
-
-=======
->>>>>>> 10a22a8a3dd455a5765037bb4ad92109e4bc1061
