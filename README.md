@@ -100,17 +100,46 @@ tomada de decisão do modelo foram:
 O algoritmo selecionado foi o **Random Forest (rf)**, treinado via pacote `caret` buscando a otimização da métrica **AUC-ROC**.
 
 ```R
-# Estrutura do treinamento no Caret
+# =====================================================
+# Treinamento
+# =====================================================
+
 ctrl <- trainControl(method = "cv", number = 5,
                      classProbs = TRUE,
                      summaryFunction = twoClassSummary,
                      sampling = "up")
 
-modelo_evasao <- train(situacao_atual ~ sexo + coeficiente_de_rendimento_absoluto +
-                       taxa_reprovacao + tempo_no_curso + forma_de_ingresso + 
-                       tipo_de_cota + turno,
-                       data = train_pp, method = "rf", 
-                       trControl = ctrl, metric = "ROC")
+set.seed(123)
+modelo_evasao <- train(
+  situacao_atual ~ sexo + coeficiente_de_rendimento_absoluto +
+    taxa_reprovacao + tempo_no_curso +
+    forma_de_ingresso + tipo_de_cota + turno,
+  data = train_pp,
+  method = "rf",
+  trControl = ctrl,
+  metric = "ROC",
+  tuneLength = 3
+)
+
+# =====================================================
+# Avaliação
+# =====================================================
+
+pred_prob <- predict(modelo_evasao, test_pp, type = "prob")
+roc_obj <- roc(test_pp$situacao_atual, pred_prob[,"desistente"])
+plot(roc_obj, col = "blue")
+
+confusionMatrix(predict(modelo_evasao, test_pp), test_pp$situacao_atual)
+
+# Importância das variáveis com caret
+importancia <- varImp(modelo_evasao, scale = TRUE)
+
+# Visualizar tabela
+print(importancia)
+
+# Gráfico
+plot(importancia, top = 10)   # mostra as 10 variáveis mais importantes
+
                        
 ---
 
